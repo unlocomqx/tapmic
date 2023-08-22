@@ -15,7 +15,7 @@
   <p>Latitude: {loc?.coords.latitude}</p>
   <p>Longitude: {loc?.coords.longitude}</p>
 
-  <button on:click={getCurrentPosition}>
+  <button class="btn" on:click={getCurrentPosition}>
     Get Current Location
   </button>
 </div>
